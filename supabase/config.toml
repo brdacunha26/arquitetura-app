@@ -1,0 +1,17 @@
+[global]
+project_id = ""
+[local]
+database_type = "PostgreSQL"
+database_host = "localhost"
+database_port = 54322
+database_user = "postgres"
+database_password = "postgres"
+database_name = "postgres"
+
+[auth]
+enable_email_signup = true
+enable_email_login = true
+enable_magic_link = true
+
+[studio]
+port = 54323 
